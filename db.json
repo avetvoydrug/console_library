@@ -1,0 +1,148 @@
+{
+    "books": [
+        {
+            "id": "48956775-3550-4b13-97e5-7991c68a2daf",
+            "title": {
+                "text": "Вандалы"
+            },
+            "year": 2000,
+            "author": {
+                "first_name": {
+                    "text": "sergey"
+                },
+                "last_name": {
+                    "text": "update"
+                },
+                "middle_name": null
+            },
+            "status": "в наличии"
+        },
+        {
+            "id": "7648a65e-11d3-4b77-b7f9-b8eeddefec97",
+            "title": {
+                "text": "ААААААА"
+            },
+            "year": 2000,
+            "author": {
+                "first_name": {
+                    "text": "sergey"
+                },
+                "last_name": {
+                    "text": "update"
+                },
+                "middle_name": null
+            },
+            "status": "в наличии"
+        },
+        {
+            "id": "16377671-0e02-4ce7-a3ba-233e16a7c7e8",
+            "title": {
+                "text": "hmmm"
+            },
+            "year": 2004,
+            "author": {
+                "first_name": {
+                    "text": "name"
+                },
+                "last_name": {
+                    "text": "surname"
+                },
+                "middle_name": {
+                    "text": "middle_name"
+                }
+            },
+            "status": "выдана"
+        },
+        {
+            "id": "32f5cd4c-aba8-4b26-a3eb-16f9bd441d1b",
+            "title": {
+                "text": "asd"
+            },
+            "year": 2000,
+            "author": {
+                "first_name": {
+                    "text": "genric"
+                },
+                "last_name": {
+                    "text": "vasyz"
+                },
+                "middle_name": {
+                    "text": "astrahan"
+                }
+            },
+            "status": "в наличии"
+        },
+        {
+            "id": "ebc84179-81a6-40fe-9936-d2b0a2606079",
+            "title": {
+                "text": "google"
+            },
+            "year": 1965,
+            "author": {
+                "first_name": {
+                    "text": "enter"
+                },
+                "last_name": {
+                    "text": "enterovich"
+                },
+                "middle_name": {
+                    "text": "enterov"
+                }
+            },
+            "status": "в наличии"
+        },
+        {
+            "id": "2106d610-5935-4c3a-93ac-fc9c097445c9",
+            "title": {
+                "text": "ss"
+            },
+            "year": 200,
+            "author": {
+                "first_name": {
+                    "text": "ssss"
+                },
+                "last_name": {
+                    "text": "ssss"
+                },
+                "middle_name": null
+            },
+            "status": "в наличии"
+        },
+        {
+            "id": "5332c003-c600-433b-9239-158bf762c5df",
+            "title": {
+                "text": "20"
+            },
+            "year": 12,
+            "author": {
+                "first_name": {
+                    "text": "ab"
+                },
+                "last_name": {
+                    "text": "ab"
+                },
+                "middle_name": null
+            },
+            "status": "выдана"
+        },
+        {
+            "id": "f5631855-16d4-4c5a-9652-32900df6c0d7",
+            "title": {
+                "text": "segoodnya"
+            },
+            "year": 2004,
+            "author": {
+                "first_name": {
+                    "text": "vchera"
+                },
+                "last_name": {
+                    "text": "bylo"
+                },
+                "middle_name": {
+                    "text": "uzhe"
+                }
+            },
+            "status": "в наличии"
+        }
+    ]
+}
