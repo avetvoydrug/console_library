@@ -22,22 +22,22 @@
 python<ваш_пайтон> main.py
 ```
 # Структура
-library/
-├── app/                 # Бизнес-логика
-│   └── service/
-│       └── book.py      # BookService
-│
-├── infra/               # Инфраструктура
-│   ├──dto
-│   │  └──book_dto.py    # data transfer object для Book
-│   └──repository
-│      └──book.py        # работа с БД JSONRepository
-│
-├── domain/              # Доменная область
-│   ├──entity            # Сущности
-│   │  └──book.py        
-│   ├──exception         # Исключения для сущностей и объект-значений
-│   │  ├──entity_ex     
-│   │  └──value_ex
-│   └──value             # Объекты значений
-└── main.py              # Презентационный слой (консольный интерфейс)
+- library/
+- ├── app/                 # Бизнес-логика
+- │   └── service/
+- │       └── book.py      # BookService
+- │
+- ├── infra/               # Инфраструктура
+- │   ├──dto
+- │   │  └──book_dto.py    # data transfer object для Book
+- │   └──repository
+- │      └──book.py        # работа с БД JSONRepository
+- │
+- ├── domain/              # Доменная область
+- │   ├──entity            # Сущности
+- │   │  └──book.py        
+- │   ├──exception         # Исключения для сущностей и объект-значений
+- │   │  ├──entity_ex     
+- │   │  └──value_ex
+- │   └──value             # Объекты значений
+- └── main.py              # Презентационный слой (консольный интерфейс)
