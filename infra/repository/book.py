@@ -11,7 +11,7 @@ from infra.dto.book_dto import BookDTO
 
 class JSONRepository(BaseRepository):
     """
-    Репозиторий для работой с книгами        
+    Репозиторий для работы с книгами        
     """
     def __init__(self, filename: str):
         self.filename = filename

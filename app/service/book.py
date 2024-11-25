@@ -1,6 +1,7 @@
 from typing import List, Optional
 
 from infra.repository.book import JSONRepository
+from infra.dto.book_dto import BookDTO
 from domain.entity.book import Book, Name, FrozenSmallText
 
 
@@ -39,21 +40,21 @@ class BookService:
         except Exception as e:
             return e
     
-    def get_by_id(self, id: str):
+    def get_by_id(self, id: str)->Optional[BookDTO]:
         """
         Получение книги по id
         """
         res = self.book_rep.get_by_id(id)
         return res
     
-    def get_all(self):
+    def get_all(self)->List[BookDTO]:
         """
         Получение всех книг из БД
         """
         res = self.book_rep.get_all()
         return res
 
-    def update_book(self, id: str, status: str):
+    def update_book(self, id: str, status: str)->None:
         """
         Обновление статуса книги
         """
@@ -63,7 +64,7 @@ class BookService:
         self, 
         title: Optional[str] = None, 
         author: Optional[str] = None, 
-        year: Optional[int] = None):
+        year: Optional[int] = None)->List[BookDTO]:
         """
         Возвращает или:
             - список книг по входным данным
