@@ -41,6 +41,10 @@ def get_user_input(prompt: str) -> Optional[str]:
             print("Ввод не может быть пустым. Попробуйте снова.")
 
 def get_int_input(prompt: str) -> Optional[int]:
+    """
+    Получение целочисленного ввода
+    Optional для метода поиска, т.к. в нём ввод может быть пустым
+    """
     while True:
         try:
             user_input = input(prompt)
@@ -52,7 +56,10 @@ def get_int_input(prompt: str) -> Optional[int]:
             print("Неверный формат ввода. Пожалуйста, введите целое положительное число.")
 
 
-def add_book(book_service):
+def add_book(book_service:BookService):
+    """
+    Метод описывающий процесс добавления книги пользователем через консоль
+    """
     title = get_user_input("Введите название книги: ")
     while True:
         try:
@@ -66,8 +73,7 @@ def add_book(book_service):
                 answer = get_user_input("Хотите ввести заново? (да/нет): ")
                 if answer.lower() in ["да", "yes"]:
                     continue  
-            author = [a.strip() for a in author_input[:3]]
-            print(author)  
+            author = [a.strip() for a in author_input[:3]]  
             break
         except Exception as e:
             print(f"Ошибка: {e}")
@@ -80,6 +86,9 @@ def add_book(book_service):
         print("Книга успешно добавлена!")
 
 def main():
+    """
+    Запуск консольного приложения
+    """
     book_rep = JSONRepository
     book_service = BookService(book_rep)
 
